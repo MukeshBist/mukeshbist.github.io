@@ -219,7 +219,21 @@ hr{
 	left: 70px;
 	width: 320px;
 }
-
+#cover{
+	z-index: 1;
+	width: 120px;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left: 880px;
+}
+#whatsapp img{
+	position: relative;
+     height: 50px;
+     width: 50px;
+     left: 700px;
+     top: 290px;
+}
 
 
 
@@ -289,9 +303,13 @@ hr{
      bottom: 5px;
 }
 #navbar #box ul #hover1{
-	height: 23px;
+	height: 20px;
 	width: 40px;
 	margin-right: -13px;
+	background-image: linear-gradient(to bottom right,#990000,#7E5109);
+}
+#hover1 a{
+	color: black;
 }
 #navbar #box ul .other{
 	position: relative;
@@ -358,15 +376,22 @@ hr{
 	position: absolute;
 	left: 18px;
 	top: 350px;
+	height: 90px;
+	width: 300px;
 }
 #shortcut #img1,#shortcut #img2{
-	float: left;
-     position: relative;
+     position: absolute;
      height: 70px;
      width: 70px;
 }
 #shortcut #img1{
 	transform: translate(-90px,0px);
+	border: 2px solid red;
+}
+#shortcut #img2{
+  	position: relative;
+  	left: 70px;
+  	width: 0px;
 }
 
 #shortcut #img2 p{
@@ -403,10 +428,10 @@ hr{
 }
 #gmail .fb{
      position: absolute;
-     height: 40px;
-     width: 40px;
-     top: 50px;
-     left: 30px;
+     height:25px;
+     width: 25px;
+     top: 45px;
+     left: 70px;
      border: none;
 }
 hr{
@@ -415,4 +440,20 @@ hr{
 	left: 20px;
 	width: 320px;
 }
+#cover{
+	z-index: 1;
+	width: 120px;
+	height: 50px;
+	position: relative;
+	top: 290px;
+	left: 90px;
+}
+#whatsapp img{
+	position: relative;
+     height: 30px;
+     width: 30px;
+     left: 200px;
+     top: 400px;
+}
+
 }
